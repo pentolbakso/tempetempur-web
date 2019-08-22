@@ -20,10 +20,10 @@ const BuySection = ({ style, price, onButtonClick }) => (
           padding: 15
         }}
       >
-        <Grid columns={3} stackable>
-          <Grid.Column textAlign="center">PEDAS LEVEL 1</Grid.Column>
+        <Grid columns={3}>
+          <Grid.Column textAlign="center">Pedas</Grid.Column>
           <Grid.Column textAlign="center">{price || "Rp 16.000"}</Grid.Column>
-          <Grid.Column textAlign="center">PEDAS LEVEL 3</Grid.Column>
+          <Grid.Column textAlign="center">Pedas Banget</Grid.Column>
         </Grid>
       </div>
       <div

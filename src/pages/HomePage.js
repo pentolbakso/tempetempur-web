@@ -16,7 +16,7 @@ function HomePage() {
       <HeroSection />
       <FeatureSection />
       <BuySection
-        price="Rp 16.000"
+        price="Rp 15.000"
         onButtonClick={() => {
           window.open(
             "https://api.whatsapp.com/send?phone=" +
